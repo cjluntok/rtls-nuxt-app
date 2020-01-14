@@ -1,5 +1,5 @@
 <template>
-  <h1>Home page</h1>
+  <h1>Workflow process capture</h1>
 </template>
 
 <script>

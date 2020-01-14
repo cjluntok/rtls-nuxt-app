@@ -1,10 +1,11 @@
 <template>
-  <h1>Home page</h1>
+  <h1>Software</h1>
 </template>
 
 <script>
 
 </script>
 
-<style>
+<style lang="scss">
+//
 </style>
