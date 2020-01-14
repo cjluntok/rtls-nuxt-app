@@ -1,7 +1,6 @@
 <template>
-  <div>
-    <nuxt />
-    Hey
+  <div>    
+    <nuxt />hellooooooooooooooo
   </div>
 </template>
 
