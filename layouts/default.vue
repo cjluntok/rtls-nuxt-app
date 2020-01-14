@@ -1,6 +1,7 @@
 <template>
   <div>    
-    <nuxt />hellooooooooooooooo
+    <nuxt />hello
+  ,,,sss
   </div>
 </template>
 
