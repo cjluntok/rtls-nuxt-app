@@ -19,8 +19,8 @@
                 <div id="page-nav-container" class="page-header-content">
                     <div class="container navigation-container">
                             <nav class="navbar navbar-expand-lg navbar-light">
-                                <div id="logo" class="col-sm-8 col-md-6 col-lg-3 page-logo">                                
-                                    <a class="navbar-brand" href="../airista"><img class="img-fluid" src="@/assets/img/rtls-logo.png" alt="Logo"></a>                                
+                                <div id="logo" class="col-sm-8 col-md-6 col-lg-3 page-logo">
+                                    <a href="/" class="navbar-brand"><img class="img-fluid" src="@/assets/img/rtls-logo.png" alt="Logo"></a>                               
                                 </div>
                                 
                                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,15 +31,15 @@
                                 <ul class="navbar-nav">
 
                                     <li class="nav-item">
-                                    <a class="nav-link" href="../airista">Home</a>
+                                    <nuxt-link to="/" class="nav-link">Home</nuxt-link>
                                     </li>
                                     <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 Products
                                             </a>
                                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <a class="dropdown-item" href="software"><i class="fas fa-caret-right"></i>Software</a>
-                                                <a class="dropdown-item" href="hardware"><i class="fas fa-caret-right"></i>Hardware</a>
+                                                <nuxt-link to="/software" class="dropdown-item"><i class="fas fa-caret-right"></i>Software</nuxt-link>
+                                                <nuxt-link to="/hardware" class="dropdown-item"><i class="fas fa-caret-right"></i>Hardware</nuxt-link>
                                             </div>
                                     </li>
                                     <li class="nav-item dropdown <?= ($page == 'solution') ? 'active' : ''?>">
@@ -47,16 +47,15 @@
                                                 Applications
                                             </a>
                                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <a class="dropdown-item" href="asset-tracking"><i class="fas fa-caret-right"></i>Asset Tracking</a>
-                                                <a class="dropdown-item" href="personnel-safety"><i class="fas fa-caret-right"></i>Personnel Safety</a>
-                                                <a class="dropdown-item" href="hand-hygiene-compliance"><i class="fas fa-caret-right"></i>Hand Hygiene Compliance</a>
-                                                <a class="dropdown-item" href="temperature-monitoring"><i class="fas fa-caret-right"></i>Temperature Monitoring</a>
-                                                <a class="dropdown-item" href="workflow-process-capture"><i class="fas fa-caret-right"></i>Workflow & Process Capture</a>
-
+                                                <nuxt-link to="/asset-tracking" class="dropdown-item"><i class="fas fa-caret-right"></i>Asset Tracking</nuxt-link>
+                                                <nuxt-link to="/personnel-safety" class="dropdown-item"><i class="fas fa-caret-right"></i>Personnel Safety</nuxt-link>
+                                                <nuxt-link to="/hand-hygiene-compliance" class="dropdown-item"><i class="fas fa-caret-right"></i>Hand Hygiene Compliance</nuxt-link>
+                                                <nuxt-link to="/temperature-monotoring" class="dropdown-item"><i class="fas fa-caret-right"></i>Temperature Monitoring</nuxt-link>
+                                                <nuxt-link to="/workflow-process-capture" class="dropdown-item"><i class="fas fa-caret-right"></i>Workflow & Process Capture</nuxt-link>
                                             </div>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="contact">Contact Us</a>
+                                        <nuxt-link to="/contact" class="nav-link">Contact Us</nuxt-link>
                                     </li>
                                 </ul>
 
