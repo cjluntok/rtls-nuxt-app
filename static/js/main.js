@@ -1,5 +1,4 @@
 $(document).ready(function() {
-        alert("working");
         window.onscroll = function() {
             const section = document.querySelector('#page-nav-container');
 
