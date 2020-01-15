@@ -203,6 +203,7 @@
 import pageBanner from "@/components/partials/pageBanner.vue";
 
 export default {
+  layout: "products",
   components: {
     pageBanner
   }

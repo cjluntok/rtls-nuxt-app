@@ -14,7 +14,7 @@
             <div class="col-md-6">
               <div class="card">
                 <h3 class="card_title card_title-default">
-                  <i class="fas fa-wifi"></i> Wireless Technologies
+                  <i><font-awesome-icon :icon="['fas', 'wifi']" /></i> Wireless Technologies
                 </h3>
                 <div class="card_body">
                   <ul>
@@ -31,7 +31,7 @@
             <div class="col-md-6">
               <div class="card">
                 <h3 class="card_title card_title-default">
-                  <i class="fas fa-desktop"></i> SENSOR TYPES
+                  <i><font-awesome-icon :icon="['fas', 'desktop']" /></i> SENSOR TYPES
                 </h3>
                 <div class="card_body">
                   <ul>
@@ -73,7 +73,7 @@
             <div class="col-md-6">
               <div class="card">
                 <h3 class="card_title card_title-default">
-                  <i class="fas fa-clipboard"></i> INTEGRATE APPLICATIONS TO EXTEND INSIGHTS
+                  <i><font-awesome-icon :icon="['fas', 'clipboard']" /></i> INTEGRATE APPLICATIONS TO EXTEND INSIGHTS
                 </h3>
                 <div class="card_body">
                   <ul>
@@ -90,7 +90,7 @@
             <div class="col-md-6">
               <div class="card">
                 <h3 class="card_title card_title-default">
-                  <i class="fas fa-clipboard-check"></i> REACH DEEPER FOR BETTER OUTCOMES
+                  <i><font-awesome-icon :icon="['fas', 'clipboard-check']" /></i> REACH DEEPER FOR BETTER OUTCOMES
                 </h3>
                 <div class="card_body">
                   <ul>
@@ -116,7 +116,7 @@
             <div class="col-md-6 col-lg-4 card-icon-container">
               <div class="card card-icon">
                 <h3 class="card-icon-box">
-                  <i class="fas fa-hard-hat"></i>
+                  <i><font-awesome-icon :icon="['fas', 'hard-hat']" /></i>
                 </h3>
                 <div class="card_body">
                   <p>In the event of an underground mine emergency, automated headcount in the mustering area indicate the people still in harm’s way. The locations of these people are mapped and indicate whether they are down and not moving which helps drive rescue priorities.</p>
@@ -126,7 +126,7 @@
             <div class="col-md-6 col-lg-4 card-icon-container">
               <div class="card card-icon">
                 <h3 class="card-icon-box">
-                  <i class="fas fa-stethoscope"></i>
+                  <i><font-awesome-icon :icon="['fas', 'stethoscope']" /></i>
                 </h3>
                 <div class="card_body">
                   <p>As hospital reimbursement is increasingly based on patient outcomes, analysis of factors across the delivery system drives continuous improvement. Hand hygiene of staff can be monitored for programs to increase compliance. Medications under refrigeration can be monitored for consistency of temperature. Segregating sterilized equipment and par level accounting ensures devices are available and clean.</p>
@@ -136,7 +136,7 @@
             <div class="col-md-6 col-lg-4 card-icon-container">
               <div class="card card-icon">
                 <h3 class="card-icon-box">
-                  <i class="fas fa-procedures"></i>
+                  <i><font-awesome-icon :icon="['fas', 'procedures']" /></i>
                 </h3>
                 <div class="card_body">
                   <p>For production environments, insight into dwell times leads to improved asset utilization. When applied to patient experience, dwell time analysis improvises patient flow, increasing customer satisfaction. Combined with historic pathing, the patient’s end-to-end journey is brought to life.</p>
@@ -146,7 +146,7 @@
             <div class="col-md-6 col-lg-4 card-icon-container">
               <div class="card card-icon">
                 <h3 class="card-icon-box">
-                  <i class="fas fa-person-booth"></i>
+                  <i><font-awesome-icon :icon="['fas', 'person-booth']" /></i>
                 </h3>
                 <div class="card_body">
                   <p>Hotel housekeeping staff are one of the most vulnerable groups of people in the workforce. Panic buttons alerting security to compromising situations ensures help is delivered quickly. Through forensic replay of events, continuous improvements are implemented which increase effectiveness and comply with legislative and union requirements.</p>
@@ -156,7 +156,7 @@
             <div class="col-md-6 col-lg-4 card-icon-container">
               <div class="card card-icon">
                 <h3 class="card-icon-box">
-                  <i class="fas fa-fighter-jet"></i>
+                  <i><font-awesome-icon :icon="['fas', 'fighter-jet']" /></i>
                 </h3>
                 <div class="card_body">
                   <p>Pre-preg material used for skins of jet fighters has an expiration date. To ensure efficient use of this expensive material, the oldest material is pulled from the freezer first. If the retrieved material is out of date, an alarm sounds as it moves out of the freezer.</p>
@@ -166,7 +166,7 @@
             <div class="col-md-6 col-lg-4 card-icon-container">
               <div class="card card-icon">
                 <h3 class="card-icon-box">
-                  <i class="fas fa-user-check"></i>
+                  <i><font-awesome-icon :icon="['fas', 'user-check']" /></i>
                 </h3>
                 <div class="card_body">
                   <p>In the event of patient elopement in an Alzheimer’s ward, the identification of the wandering patient is made and a recording of a family member is played over nearby speakers encouraging them to return to their room.</p>
@@ -184,6 +184,7 @@
 import pageBanner from "@/components/partials/pageBanner.vue";
 
 export default {
+  layout: "products",
   components: {
     pageBanner
   }

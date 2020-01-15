@@ -13,17 +13,12 @@ export default {
     ],
     script: [
       { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' },
-<<<<<<< HEAD
       { src: 'https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'},
       { src: '/js/bootstrap.min.js'},
-=======
-      { src: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css', rel: 'stylesheet'},
->>>>>>> 98dd853473dfc707f640fb3eda68d382a584fbfe
-      { src: '/js/main.js'}
+      { src: '/js/main.js' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'}
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
   /*
@@ -41,6 +36,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '@plugins/fontawesome.js'
   ],
   /*
   ** Nuxt.js dev-modules

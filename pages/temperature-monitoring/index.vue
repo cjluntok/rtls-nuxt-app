@@ -29,14 +29,14 @@
                 <div class="col-md-12 col-lg-6 page-content-text">
                     <h2 class="page-content-title">CUSTOM SOLUTIONS FROM THE AIRISTA FLOW SUITE OF OFFERINGS HELP ALLOW ORGANIZATIONS TO:</h2>
                     <ul>
-                        <li><i class="far fa-check-circle"></i> Ensure patient, customer, or staff safety and minimize risk</li>
-                        <li><i class="far fa-check-circle"></i> Minimize food spoilage</li>
-                        <li><i class="far fa-check-circle"></i> Protect valuable consumables by alerting staff before temperature breaches occur</li>
-                        <li><i class="far fa-check-circle"></i> Ensure regulatory compliance and documentation without manual logs and human error</li>
-                        <li><i class="far fa-check-circle"></i> Help staff and workers to focus on core job activities instead of documentation</li>
-                        <li><i class="far fa-check-circle"></i> Automate Joint Commission and FDA compliance documentation without manual logs</li>
-                        <li><i class="far fa-check-circle"></i> Maximize the lifespan of blood, medication and tissue by monitoring target environmental conditions</li>
-                        <li><i class="far fa-check-circle"></i> Automate humidity monitoring in ORs to reduce infection risks</li>
+                        <li><i><font-awesome-icon :icon="['fa', 'check-circle']" /></i> Ensure patient, customer, or staff safety and minimize risk</li>
+                        <li><i><font-awesome-icon :icon="['fa', 'check-circle']" /></i> Minimize food spoilage</li>
+                        <li><i><font-awesome-icon :icon="['fa', 'check-circle']" /></i> Protect valuable consumables by alerting staff before temperature breaches occur</li>
+                        <li><i><font-awesome-icon :icon="['fa', 'check-circle']" /></i> Ensure regulatory compliance and documentation without manual logs and human error</li>
+                        <li><i><font-awesome-icon :icon="['fa', 'check-circle']" /></i> Help staff and workers to focus on core job activities instead of documentation</li>
+                        <li><i><font-awesome-icon :icon="['fa', 'check-circle']" /></i> Automate Joint Commission and FDA compliance documentation without manual logs</li>
+                        <li><i><font-awesome-icon :icon="['fa', 'check-circle']" /></i> Maximize the lifespan of blood, medication and tissue by monitoring target environmental conditions</li>
+                        <li><i><font-awesome-icon :icon="['fa', 'check-circle']" /></i> Automate humidity monitoring in ORs to reduce infection risks</li>
                     </ul>
                 </div>
             </div>
@@ -50,6 +50,7 @@
 import pageBanner from '@/components/partials/pageBanner.vue'
 
 export default {
+  layout: "applications",
   components : {
     pageBanner
   }

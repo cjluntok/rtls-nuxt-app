@@ -40,6 +40,7 @@
 import pageBanner from '@/components/partials/pageBanner.vue'
 
 export default {
+  layout: "applications",
   components : {
     pageBanner
   }

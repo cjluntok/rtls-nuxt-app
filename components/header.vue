@@ -1,6 +1,6 @@
 <template>
     <header id="__main">
-        <a id="backtotop"><i class="fas fa-arrow-up"></i></a>
+        <a id="backtotop"><i><font-awesome-icon :icon="['fas', 'arrow-up']" /></i></a>
         <appNav></appNav>
     </header>
 </template>

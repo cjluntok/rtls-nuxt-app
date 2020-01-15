@@ -11,7 +11,7 @@
                         <div class="col-md-6">
                             <div class="card">
                                 <h3 class="card_title card_title-default">
-                                <i class="fas fa-wifi"></i> Wireless Technologies
+                                <font-awesome-icon :icon="['fas', 'wifi']" /> Wireless Technologies
                                 </h3>
                                 <div class="card_body">
                                     <ul>
@@ -28,7 +28,7 @@
                         <div class="col-md-6">
                             <div class="card">
                                 <h3 class="card_title card_title-default">
-                                <i class="fas fa-desktop"></i> SENSOR TYPES
+                                <font-awesome-icon :icon="['fas', 'desktop']" /> SENSOR TYPES
                                 </h3>
                                 <div class="card_body">
                                     <ul>
@@ -80,7 +80,7 @@
                                 <a href="asset-tracking">
                                     <div class="card mb-5 mb-lg-0">                                    
                                         <div class="card-body">
-                                        <h5 class="card-title text-uppercase text-center"><i class="fas fa-eye"></i>Asset Tracking</h5>
+                                        <h5 class="card-title text-uppercase text-center"><font-awesome-icon :icon="['fas', 'eye']" />Asset Tracking</h5>
                                         <hr>
                                         <p class="card-text">Track equipment, asset inventories, and components.</p>
                                         </div>
@@ -92,7 +92,7 @@
                                 <a href="personnel-safety">                               
                                   <div class="card mb-5 mb-lg-0">
                                       <div class="card-body">
-                                      <h5 class="card-title text-uppercase text-center"><i class="fas fa-user-shield"></i>Personal Safety</h5>
+                                      <h5 class="card-title text-uppercase text-center"><font-awesome-icon :icon="['fas', 'user-shield']" />Personal Safety</h5>
                                       <hr>
                                       <p class="card-text">Help reduce emergency response times and more.</p>
                                       </div>
@@ -104,7 +104,7 @@
                                 <a href="hand-hygiene-compliance">                                
                                     <div class="card mb-5 mb-lg-0">                                    
                                         <div class="card-body">
-                                        <h5 class="card-title text-uppercase text-center"><i class="fas fa-user-check"></i>Hand Hygiene Compliance</h5>
+                                        <h5 class="card-title text-uppercase text-center"><font-awesome-icon :icon="['fas', 'user-check']" />Hand Hygiene Compliance</h5>
                                         <hr>
                                         <p class="card-text">Motivate, track, or monitor compliance for hand washing.</p>
                                         </div>
@@ -116,7 +116,7 @@
                                 <a href="temperature-monitoring">                              
                                     <div class="card mb-5 mb-lg-0">                                    
                                         <div class="card-body">
-                                        <h5 class="card-title text-uppercase text-center"><i class="fas fa-temperature-high"></i>Temperature Monitoring</h5>
+                                        <h5 class="card-title text-uppercase text-center"><font-awesome-icon :icon="['fas', 'temperature-high']" />Temperature Monitoring</h5>
                                         <hr>
                                         <p class="card-text">Automate temperature monitoring with alerts and compliance reports.</p>
                                         </div>
@@ -128,7 +128,7 @@
                                 <a href="workflow-process-capture">                                
                                     <div class="card mb-5 mb-lg-0">                                    
                                         <div class="card-body">
-                                        <h5 class="card-title text-uppercase text-center"><i class="fas fa-network-wired"></i>Workflow & Process Capture</h5>
+                                        <h5 class="card-title text-uppercase text-center"><font-awesome-icon :icon="['fas', 'network-wired']" />Workflow & Process Capture</h5>
                                         <hr>
                                         <p class="card-text">Create process efficiencies using RTLS-powered workflows.</p>
                                         </div>
@@ -173,5 +173,11 @@ export default {
 }
 </script>
 
-<style>
+<style style="css" scoped>
+
+.common-card svg {
+    display: block;
+    font-size: 1.6em;
+    margin: 0 auto;
+}
 </style>

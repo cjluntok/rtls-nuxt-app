@@ -20,25 +20,25 @@
               >CUSTOMERS HAVE USED THE AIRISTA FLOW ASSET TRACKING SOLUTION TO:</h3>
               <ul>
                 <li>
-                  <i class="far fa-check-circle"></i> Alert security before equipment leaves geo-fenced zones and prevent theft by applying customized business rules.
+                  <i><font-awesome-icon :icon="['fa', 'check-circle']" /></i> Alert security before equipment leaves geo-fenced zones and prevent theft by applying customized business rules.
                 </li>
                 <li>
-                  <i class="far fa-check-circle"></i> Improve operational throughput (e.g. patient flow, or product assemblies) by reducing caregivers’ and line workers’ equipment search times.
+                  <i><font-awesome-icon :icon="['fa', 'check-circle']" /></i> Improve operational throughput (e.g. patient flow, or product assemblies) by reducing caregivers’ and line workers’ equipment search times.
                 </li>
                 <li>
-                  <i class="far fa-check-circle"></i> Ensure that assets and categories of assets are searchable, indicating both room-level location and “availability” status.
+                  <i><font-awesome-icon :icon="['fa', 'check-circle']" /></i> Ensure that assets and categories of assets are searchable, indicating both room-level location and “availability” status.
                 </li>
                 <li>
-                  <i class="far fa-check-circle"></i> Improve inventory management with utilization, par level, and dwell time reporting.
+                  <i><font-awesome-icon :icon="['fa', 'check-circle']" /></i> Improve inventory management with utilization, par level, and dwell time reporting.
                 </li>
                 <li>
-                  <i class="far fa-check-circle"></i> Automate work order alerts and measure on-time servicing to increase availability.
+                  <i><font-awesome-icon :icon="['fa', 'check-circle']" /></i> Automate work order alerts and measure on-time servicing to increase availability.
                 </li>
                 <li>
-                  <i class="far fa-check-circle"></i> Monitor par level with location-based work orders that improve utilization and minimize rental expenses.
+                  <i><font-awesome-icon :icon="['fa', 'check-circle']" /></i> Monitor par level with location-based work orders that improve utilization and minimize rental expenses.
                 </li>
                 <li>
-                  <i class="far fa-check-circle"></i> Track asset movement history to isolate process improvements and optimize workflows.
+                  <i><font-awesome-icon :icon="['fa', 'check-circle']" /></i> Track asset movement history to isolate process improvements and optimize workflows.
                 </li>
               </ul>
             </div>
@@ -50,12 +50,12 @@
     <section class="page-content asset asset--2">
       <div
         class="page-content-item page-bgtext-container"
-        style="background-image:url('~assets/img/asset-tracking-mid-banner.jpg')"
+        :style="{backgroundImage:'url('+ require('@/assets/img/asset-tracking-mid-banner.jpg')+')'}"
       >
         <div class="page-content-inner container">
           <div class="row page-text-container">
             <div class="col-md-9">
-              <img src="~assets/img/asset-flow-img.png" alt="Asset Flow" class="img-fluid" />
+              <img src="@/assets/img/asset-flow-img.png" alt="Asset Flow" class="img-fluid" />
               <div class="row">
                 <div class="col-md-4">
                   <h3>1. Airista Flow Tags</h3>
@@ -82,6 +82,7 @@
 import pageBanner from "@/components/partials/pageBanner.vue";
 
 export default {
+  layout: "applications",
   components: {
     pageBanner
   }
