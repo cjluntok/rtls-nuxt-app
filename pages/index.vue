@@ -61,7 +61,7 @@
                     <div class="col-md-6 page-content-text">
                         <h2 class="page-content-title">AIRISTA UNIFIED VISION SOLUTION</h2>
                         <p>AiRISTA Unified Vision Solution is modern business intelligence at its best. An easy-to-use Real-Time Location System (RTLS) software platform, AiRISTA Unified Vision Solution offers unmatched tracking and reporting through cloud or premise based deployments. With proven scalability of over 130,000 endpoints in a single deployment, our software addresses needs for companies in hospitality, healthcare, manufacturing, government services, and other dynamic industries. Discover how our RTLS platform can help you achieve smarter business growth.</p>
-                        <p><a href="software" class="btn btn-primary page-content-link">Learn more</a></p>
+                        <p><nuxt-link to="/products/software" class="btn btn-primary page-content-link">Learn more</nuxt-link></p>
                     </div>
                     <div class="col-md-6 page-content-img uvs-bg">
                     </div>
@@ -77,7 +77,7 @@
                 <section class="common-card page-content-solution py-5">
                         <div class="row">
                             <div class="col-md-4 col-lg-2 page-common-card">                                
-                                <a href="asset-tracking">
+                                <nuxt-link to="/asset-tracking">
                                     <div class="card mb-5 mb-lg-0">                                    
                                         <div class="card-body">
                                         <h5 class="card-title text-uppercase text-center"><font-awesome-icon :icon="['fas', 'eye']" />Asset Tracking</h5>
@@ -85,11 +85,11 @@
                                         <p class="card-text">Track equipment, asset inventories, and components.</p>
                                         </div>
                                     </div>
-                                </a>
+                                </nuxt-link>
                             </div>
 
                             <div class="col-md-4 col-lg-2 page-common-card">
-                                <a href="personnel-safety">                               
+                                <nuxt-link to="/personnel-safety">                               
                                   <div class="card mb-5 mb-lg-0">
                                       <div class="card-body">
                                       <h5 class="card-title text-uppercase text-center"><font-awesome-icon :icon="['fas', 'user-shield']" />Personal Safety</h5>
@@ -97,11 +97,11 @@
                                       <p class="card-text">Help reduce emergency response times and more.</p>
                                       </div>
                                   </div>
-                                </a>   
+                                </nuxt-link>   
                             </div>
 
                             <div class="col-md-4 col-lg-2 page-common-card">
-                                <a href="hand-hygiene-compliance">                                
+                                <nuxt-link to="hand-hygiene-compliance">                                
                                     <div class="card mb-5 mb-lg-0">                                    
                                         <div class="card-body">
                                         <h5 class="card-title text-uppercase text-center"><font-awesome-icon :icon="['fas', 'user-check']" />Hand Hygiene Compliance</h5>
@@ -109,11 +109,11 @@
                                         <p class="card-text">Motivate, track, or monitor compliance for hand washing.</p>
                                         </div>
                                     </div>
-                                </a>
+                                </nuxt-link>
                             </div>
 
                             <div class="col-md-4 col-lg-2 page-common-card"> 
-                                <a href="temperature-monitoring">                              
+                                <nuxt-link to="temperature-monitoring">                              
                                     <div class="card mb-5 mb-lg-0">                                    
                                         <div class="card-body">
                                         <h5 class="card-title text-uppercase text-center"><font-awesome-icon :icon="['fas', 'temperature-high']" />Temperature Monitoring</h5>
@@ -121,11 +121,11 @@
                                         <p class="card-text">Automate temperature monitoring with alerts and compliance reports.</p>
                                         </div>
                                     </div>
-                                </a> 
+                                </nuxt-link> 
                             </div>
 
                             <div class="col-md-4 col-lg-2 page-common-card">
-                                <a href="workflow-process-capture">                                
+                                <nuxt-link to="workflow-process-capture">                                
                                     <div class="card mb-5 mb-lg-0">                                    
                                         <div class="card-body">
                                         <h5 class="card-title text-uppercase text-center"><font-awesome-icon :icon="['fas', 'network-wired']" />Workflow & Process Capture</h5>
@@ -133,7 +133,7 @@
                                         <p class="card-text">Create process efficiencies using RTLS-powered workflows.</p>
                                         </div>
                                     </div>
-                                </a>
+                                </nuxt-link>
                             </div>
                         </div>
                 </section>
