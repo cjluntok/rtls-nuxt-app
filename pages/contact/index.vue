@@ -56,7 +56,8 @@
                <hr>
 
                    <div id="formcontainer" class="row">
-                        <div id="form" class="container">
+                       <span id="form-anchor"></span>
+                        <div class="container" id="form">
 
                             <h3>Get in Touch!</h3>
 
@@ -237,4 +238,11 @@ export default {
 </script>
 
 <style>
+#formcontainer {
+    position: relative;
+}
+#form-anchor {
+    position: absolute;
+    top: -142px;
+}
 </style>

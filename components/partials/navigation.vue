@@ -10,7 +10,7 @@
                                     <a href="tel:+612-9412-2100"><font-awesome-icon :icon="['fas', 'phone-alt']" /> +(612) 9412 2100</a>
                                 </div>
                                 <div class="col-md-2 col-lg-2 col-sm-6  top-item-enquiry">
-                                    <a href="contact#form"><font-awesome-icon :icon="['fas', 'comment-dots']" /> Enquiry</a>
+                                    <nuxt-link to="/contact#form-anchor"><font-awesome-icon :icon="['fas', 'comment-dots']" /> Enquiry</nuxt-link>
                                 </div>
                             </div>
                         </div>

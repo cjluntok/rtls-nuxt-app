@@ -11,8 +11,8 @@
                             <h5 class="mb-4 font-weight-bold text-uppercase">Products</h5>
                             <hr>
                           <ul class="list-group">
-                            <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="software">Software</a></li>
-                            <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="hardware">Hardware</a></li>
+                            <li class="list-group-item bg-transparent border-0 p-0 mb-2"><nuxt-link to="/products/software">Software</nuxt-link></li>
+                            <li class="list-group-item bg-transparent border-0 p-0 mb-2"><nuxt-link to="/products/hardware">Hardware</nuxt-link></li>
                           </ul>
                       </div>
 
@@ -20,11 +20,11 @@
                             <h5 class="mb-4 font-weight-bold text-uppercase">Applications</h5>
                             <hr>
                           <ul class="list-group">
-                            <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="asset-tracking">Asset Tracking</a></li>
-                            <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="personnel-safety">Personnel Safety</a></li>
-                            <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="hand-hygiene-compliance">Hand Hygiene Compliance</a></li>
-                            <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="temperature-monitoring">Temperature Monitoring</a></li>
-                            <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="workflow-process-capture">Workflow Process Capture</a></li>
+                            <li class="list-group-item bg-transparent border-0 p-0 mb-2"><nuxt-link to="/asset-tracking">Asset Tracking</nuxt-link></li>
+                            <li class="list-group-item bg-transparent border-0 p-0 mb-2"><nuxt-link to="/personnel-safety">Personnel Safety</nuxt-link></li>
+                            <li class="list-group-item bg-transparent border-0 p-0 mb-2"><nuxt-link to="/hand-hygiene-compliance">Hand Hygiene Compliance</nuxt-link></li>
+                            <li class="list-group-item bg-transparent border-0 p-0 mb-2"><nuxt-link to="/temperature-monitoring">Temperature Monitoring</nuxt-link></li>
+                            <li class="list-group-item bg-transparent border-0 p-0 mb-2"><nuxt-link to="/workflow-process-capture">Workflow Process Capture</nuxt-link></li>
                           </ul>
                       </div>  
 
@@ -37,7 +37,7 @@
                             <a href="about">About Us</a>
                           </li> -->
                           <li class="list-group-item bg-transparent border-0 p-0 mb-2">
-                            <a href="contact"> Contact Us</a>   
+                            <nuxt-link to="/contact"> Contact Us</nuxt-link>   
                           </li>    
                         </ul>
                       </div>
@@ -45,7 +45,7 @@
                     </div>
                       <div class="col-md-12">
                         <div class="py-4 d-flex justify-content-center align-items-center footer-copyright">
-                          <p class="">Copyright © - Site Name </p>
+                          <p class="">Copyright © {{calcYear()}} - Site Name </p>
                         </div>
                       </div>
                   </div>
@@ -54,7 +54,12 @@
 </template>
 <script>
 export default {
-
+  methods: {
+    calcYear() {
+      let d = new Date()
+      return d.getFullYear()
+    }
+  }
 }
 </script>
 <style lang="scss" scoped>
