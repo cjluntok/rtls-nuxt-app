@@ -1,4 +1,4 @@
-$(document).ready(function() {
+
         window.onscroll = function() {
             const section = document.querySelector('#page-nav-container');
 
@@ -51,5 +51,3 @@ $(document).ready(function() {
             $dropdown.off("mouseenter mouseleave");
           }
         });
-
-});
