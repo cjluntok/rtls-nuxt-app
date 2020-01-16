@@ -61,7 +61,7 @@
 
                             <h3>Get in Touch!</h3>
 
-                            <form name="form2" method="post" action="send.php" class="pt-20">
+                            <form name="form2" method="post" action="../send.php" class="pt-20">
                                 <div class="form-group">
                                     <label for="name"><strong>Name</strong></label>
                                     <input type="name" class="form-control" id="name" name="name" aria-describedby="nameHelp" placeholder="Enter Name">
